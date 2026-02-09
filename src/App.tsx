@@ -99,7 +99,7 @@ const App: React.FC = () => {
                    1. Rename your custom song to 'song.mp3' and put it in the public folder.
                    2. If 'song.mp3' is missing, it will fallback to the online URL below.
                 */}
-                <source src="/public/audio/song.mp3" type="audio/mpeg" />
+                <source src="/audio/song.mp3" type="audio/mpeg" />
                 <source src="https://cdn.pixabay.com/audio/2022/10/18/audio_31c2730e64.mp3" type="audio/mpeg" />
             </audio>
 
